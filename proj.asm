@@ -11,12 +11,12 @@ msg5: db 'Level:'
 msg7: db 'Lives:'
 l1:db'BOULDER DASH' ;12
 l2:db'Directed By: ';11
-l3:db'Umamah';6
+l3:db'Umamah & Faiqa';14
 fname : dw 'cave1.txt',0
 fhandle: dw 0
 buffer: times 2000 db 0
 loc: dw 0
-fname2 : dw 'splashscreen.txt',0
+fname2 : dw 'a.txt',0
 fhandle2: dw 0
 buffer2: times 1400 db 0
 bufferstr: db 30
